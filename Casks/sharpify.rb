@@ -1,8 +1,8 @@
 cask "sharpify" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.2"
-  sha256 arm: "cc52148f6dad6c68c0872e43eda657d757fd5a9b48ed42ad8281e4efbb8fe73f", intel: "5631ff0f6e2fc62ffcea219d0bdc02698392e6da1781bf49ede5a2c3825cd65e"
+  version "0.1.3"
+  sha256 arm: "8d837dfb2fae00f8be2c758289211ed1e044dc3b28d5658b37f3816fb9806a62", intel: "d733fb5411c13ecb3310fb1f561e2fb96d62d54235405d85f38562af757e069b"
 
   url "https://github.com/0franco/sharpify/releases/download/v#{version}/Sharpify_#{version}_macos_#{arch}.zip",
       verified: "github.com/0franco/sharpify/"
